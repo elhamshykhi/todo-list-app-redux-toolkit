@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply px-3 py-1.5 sm:px-4 rounded-full text-xs font-bold capitalize bg-gray-100 text-violet-950 hover:text-white active:shadow-none relative transition-all duration-100 ease-in inline-block overflow-hidden z-10 shadow-[4px_4px_4px_#c5c5c5,inset_-8px_-8px_4px_#ffffff];
+}
